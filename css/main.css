@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: white;
+  color: red;
+}
+
+.round-image {
+  border-radius: 50%;
+}
+
+.icon-image-container {
+  margin: auto;
+  padding-top: 25px;
+  width: 60%;
+}
+
+.strong-text {
+  font-weight: 450;
+  color: #a0a0a0;
+}
+
+.sidebar-text {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.name-text {
+  position: relative;
+  padding-top: 15px;
+  float: left;
+  font-family: "Segoe UI";
+	font-size: 35px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+  color: white;
+  width: 100%;
+}
+
+.job-title {
+  position: relative;
+  float: left;
+  font-family: "Segoe UI";
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  color: #00afc6;
+  /*color: #A0A0A0;*/
+  width: 100%;
+}
+
+.icon-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
+
+.col-container {
+  display: table;
+  width: 100%;
+}
+
+.col {
+  display: table-cell;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #2a2a2a;
+  text-align: center;
+}
+
+div.horizontalRule {
+  min-height: 1px;
+  clear: both;
+  width: 100%;
+  border-bottom: 1px solid #d1d1d1;
+  height: 1px;
+  padding-top: 15px;
+  /*padding-bottom: 15px;*/
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.sidebar-title {
+  color: white;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Segoe UI";
+}
+
+.body-title {
+  color: #2a2a2a;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Segoe UI";
+  padding-bottom: 20px;
+}
+
+h3.profile-title:before {
+  content: url('../images/profile-24.png');
+  height: 32px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+h3.work-history-title:before {
+  content: url('../images/work-history-32.png');
+  height: 32px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+h3.certifications-title:before {
+  content: url('../images/certification-32.png');
+  height: 32px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+h3.education-title:before {
+  content: url('../images/education-32.png');
+  height: 32px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.sidebar-section {
+  padding-top: 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.sidebar-section-centered {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sidebar-section-centered p {
+  color: #a0a0a0;
+  font-family: "Segoe UI";
+  font-size: 18px;
+}
+
+.sidebar-contact-section {
+  padding-bottom: 15px;
+}
+
+.sidebar-section p {
+  padding-left: 35px;
+  color: #a0a0a0;
+  font-family: "Segoe UI";
+  font-size: 13px;
+}
+
+h3.skills-title:before {
+  content: url('../images/skills-24.png');
+  height: 32px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.header-menu {
+  width: 100%;
+  background-color: red;
+  height: 50px;
+}
+
+.col-body {
+  padding-left: 30px;
+  width: 80%;
+}
+
+ul.responsibilities {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+h4.body-item-header {
+  font-family: "Segoe UI";
+  font-size: 18px;
+  color: #393939;
+}
+
+h4.certifications {
+  font-size: 16px;
+  color: #5c5c5c;
+}
+
+h5.skills-subtitle {
+  padding-top: 10px;
+  padding-left: 35px;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  color: #00afc6;
+}
+
+.skills-list {
+  padding-left: 65px;
+  color: #a0a0a0;
+  font-family: "Segoe UI";
+}
+
+.body-item {
+  padding-left: 40px;
+  padding-bottom: 20px;
+  font-size: 13px;
+  color: #5c5c5c;
+  font-family: "Segoe UI";
+}
+
+h5.job-title-header {
+  font-size: 15px;
+  color: #00afc6;
+}
+
+h3.cover-letter-title {
+  content: url('../images/skills-24.png');
+  height: 32px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
